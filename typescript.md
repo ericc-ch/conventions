@@ -89,5 +89,3 @@
 1.  **Library Selection:**
 
 - Choose well-maintained and widely used libraries.
-- Keep dependencies up to date.
-- Be mindful of bundle size when selecting dependencies.
