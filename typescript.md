@@ -2,6 +2,11 @@ Prioritize type safety, clarity, and maintainability by defining explicit types 
 
 Leverage the latest TypeScript features and modern JavaScript syntax to write more expressive and concise code. This includes using features like optional chaining (?.), nullish coalescing (??), template literals, arrow functions, and the latest ECMAScript additions. Take advantage of TypeScript 5.0+ features such as const type parameters, decorators, satisfies operator, and template literal types where appropriate.
 
+When working with Web APIs, prefer using modern APIs that offer better ergonomics and functionality:
+
+- `Promise.withResolvers()` instead of `new Promise()`
+- `Intl` APIs for internationalization operations
+
 For functions with more than two parameters, use a single object parameter instead. This approach improves readability, makes the function more maintainable, and provides better flexibility when adding new parameters in the future. The object parameter should be properly typed using TypeScript interfaces or type aliases.
 
 Always prefer a functional programming style when structuring your code. If a purely functional approach does not adequately address the complexity or requirements of a specific part of the application, then it is acceptable to consider object-oriented programming.
